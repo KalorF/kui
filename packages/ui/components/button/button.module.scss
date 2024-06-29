@@ -12,9 +12,7 @@
     border-color: #007bff;
     color: #fff;
     &_disabled {
-      background-color: #007bff;
-      border-color: #007bff;
-      color: #fff;
+      opacity: 0.3;
       cursor: not-allowed;
     }
   }
@@ -23,9 +21,7 @@
     border-color: #6c757d;
     color: #fff;
     &_disabled {
-      background-color: #6c757d;
-      border-color: #6c757d;
-      color: #fff;
+      opacity: 0.3;
       cursor: not-allowed;
     }
   }
@@ -34,9 +30,7 @@
     border-color: #28a745;
     color: #fff;
     &_disabled {
-      background-color: #28a745;
-      border-color: #28a745;
-      color: #fff;
+      opacity: 0.3;
       cursor: not-allowed;
     }
   }
@@ -45,9 +39,7 @@
     border-color: #dc3545;
     color: #fff;
     &_disabled {
-      background-color: #dc3545;
-      border-color: #dc3545;
-      color: #fff;
+      opacity: 0.3;
       cursor: not-allowed;
     }
   }
@@ -56,9 +48,7 @@
     border-color: #ffc107;
     color: #fff;
     &_disabled {
-      background-color: #ffc107;
-      border-color: #ffc107;
-      color: #fff;
+      opacity: 0.3;
       cursor: not-allowed;
     }
   }
@@ -67,9 +57,7 @@
     border-color: #17a2b8;
     color: #fff;
     &_disabled {
-      background-color: #17a2b8;
-      border-color: #17a2b8;
-      color: #fff;
+      opacity: 0.3;
       cursor: not-allowed;
     }
   }
