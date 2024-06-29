@@ -1,5 +1,5 @@
 import { defineComponent as r, computed as u, createVNode as l, Fragment as c } from "vue";
-import './assets/button.C3laRbtz.css';const _ = "k", o = (e) => {
+import './assets/button.9znQ-0MQ.css';const _ = "k", o = (e) => {
   const n = e;
   return n.install = (a) => {
     a.component(n.name, e);
