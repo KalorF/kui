@@ -1,0 +1,43 @@
+{
+  "name": "kui",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "author": {
+    "name": "kalor"
+  },
+  "scripts": {
+    "dev": "pnpm --dir ./packages/ui dev",
+    "build": "pnpm run build:ui && pnpm run build:all",
+    "build:ui": "pnpm --dir ./packages/ui build",
+    "build:all": "pnpm --dir ./packages/ui build:all",
+    "docs:dev": "pnpm run build && pnpm --dir ./packages/docs docs:dev",
+    "docs:build": "pnpm run build && pnpm --dir ./packages/docs docs:build",
+    "docs:preview": "pnpm --dir ./packages/docs docs:preview",
+    "lint": "pnpm --dir ./packages/ui lint",
+    "type-check": "vue-tsc --build --force",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "vite-plugin-dts": "^3.9.1",
+    "vue": "^3.4.29"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.8.0",
+    "@tsconfig/node20": "^20.1.4",
+    "@types/node": "^20.14.5",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "@vitejs/plugin-vue-jsx": "^4.0.0",
+    "@vue/eslint-config-prettier": "^9.0.0",
+    "@vue/eslint-config-typescript": "^13.0.0",
+    "@vue/tsconfig": "^0.5.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.23.0",
+    "npm-run-all2": "^6.2.0",
+    "prettier": "^3.2.5",
+    "typescript": "~5.4.0",
+    "typescript-plugin-css-modules": "^5.1.0",
+    "vite": "^5.3.1",
+    "vue-tsc": "^2.0.21"
+  }
+}

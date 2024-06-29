@@ -1,0 +1,17 @@
+{
+  "name": "@kui/ui",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --config ./scripts/vite.config.dev.ts",
+    "build": "vite build --config ./scripts/vite.config.prod.ts",
+    "build:all": "vite build --config ./scripts/vite.config.all.ts",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.19",
+    "sass": "^1.77.6",
+    "vite-plugin-lib-inject-css": "^2.1.1"
+  }
+}
