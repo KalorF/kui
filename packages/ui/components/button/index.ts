@@ -1,4 +1,5 @@
 import { withInstall } from '@utils/componentsUtils'
 import Button from './button'
 
-export default withInstall<typeof Button>(Button)
+export default withInstall(Button)
+export type ButtonInstance = InstanceType<typeof Button>
